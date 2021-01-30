@@ -120,6 +120,6 @@ int main()
 
     base_funcionarios = fopen("BD_FUNCIONARIOS.bin", "rb");
     busca_binaria_arquivo(6666,base_funcionarios,tamanho_arquivo(base_funcionarios));
-
+    fclose(base_funcionarios);
     return 0;
 }
